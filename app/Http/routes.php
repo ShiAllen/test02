@@ -32,9 +32,9 @@
 // Route::get('{name?}', function ($name='welcome') {
 //     return view($name);
 // });
-// Route::get('id/{no?}', function ($no=0) {
-//     return "id:" . $no;
-// })->where('no' ,'[0-9]+' );
+ Route::get('id/{no?}', function ($no=0) {
+     return "id:" . $no;
+ })->where('no' ,'[0-9]+' );
 
 // // view   <a href={{urlname}} >
 
